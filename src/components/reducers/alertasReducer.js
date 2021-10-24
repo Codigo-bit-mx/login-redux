@@ -8,7 +8,7 @@ const initialState = {
     msg: ''
 }
 
-export default function(state = initialState, action) {
+const alertasReducer = (state = initialState, action) => {
     switch(action.type){
 
         case MOSTRAR_ALERTA:
@@ -29,3 +29,8 @@ export default function(state = initialState, action) {
     
     }
 }
+
+
+export default alertasReducer;
+
+

@@ -16,7 +16,7 @@ const initialState = {
     error: ''
 }
 
-export default function (state = initialState, action) {
+const authReducer = (state = initialState, action) => {
     switch(action.type){
        
        case LOGIN_EXITOSO:
@@ -64,3 +64,5 @@ export default function (state = initialState, action) {
             return state
     }
 }
+
+export default authReducer;

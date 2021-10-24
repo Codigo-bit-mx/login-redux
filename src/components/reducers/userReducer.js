@@ -14,7 +14,7 @@ const initialState = {
 }
 
 
-export default function (state = initialState, action) {
+const userReducer = (state = initialState, action) => {
     switch(action.type) {
 
         case REGISTRO_ACTUALIZADO_EXITO:
@@ -54,3 +54,6 @@ export default function (state = initialState, action) {
             return state
     }
 }
+
+
+export default userReducer;
