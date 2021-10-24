@@ -1,0 +1,46 @@
+:root {
+  --blanco: #ffffff;
+  --gris1: #edf2f6;
+  --gris2: #2f3848;
+  --gris3: #1a202d;
+  --negro: #000000;
+  --headingFont:'Raleway', sans-serif;
+  --textFont:  'Roboto', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%; 
+}
+body {
+  min-height: 100%;
+  background-color: var(--gris1);
+  font-size: 16px; 
+  font-size: 1.6rem;
+  font-family: var(--textFont);
+}
+
+.buttongit{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  /* color: white; */
+}
+  .buttongit span{
+      margin: 0;
+      color: white;
+      font-weight: 550;
+      font-size: 20px;
+      /* padding: 16px; */
+      cursor: pointer;
+  }
+  .buttongit:hover{
+      transition: .2s ease-in-out;
+      background-color: #ffffff;
+  }
+  .buttongit:hover span{
+      color: #333333;
+  }
